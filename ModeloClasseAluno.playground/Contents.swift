@@ -72,3 +72,9 @@ print(talita.isApproved())
 var gisele = Aluno(nome: "Gisele", idade: 45, notas: [7.0, 8.0, 9.0, 6.0], cpf: "949.828.404=90")
 print(gisele.toString())
 print(gisele.isApproved())
+
+// MARK: - Aluno Reprovado
+
+var Victor = Aluno(nome: "Victor", idade: 24, notas: [4.0, 2.0, 5.0, 4.5], cpf: "876.908.736-88")
+print(Victor.toString())
+print(Victor.isApproved())
